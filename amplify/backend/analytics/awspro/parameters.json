@@ -1,0 +1,21 @@
+{
+    "appName": "awspro",
+    "roleName": "pinpointLambdaRole9a05b124",
+    "cloudformationPolicyName": "cloudformationPolicy9a05b124",
+    "cloudWatchPolicyName": "cloudWatchPolicy9a05b124",
+    "pinpointPolicyName": "pinpointPolicy9a05b124",
+    "authPolicyName": "pinpoint_amplify_9a05b124",
+    "unauthPolicyName": "pinpoint_amplify_9a05b124",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

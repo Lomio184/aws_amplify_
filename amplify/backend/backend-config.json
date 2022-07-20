@@ -1,0 +1,22 @@
+{
+  "auth": {
+    "awspro1ad8d044": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "s3d4e58eb0": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "analytics": {
+    "awspro": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
